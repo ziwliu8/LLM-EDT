@@ -19,13 +19,13 @@ You can pip install the `requirements.txt` to configure the environment.
 
 You can preprocess the dataset and get the LLMs embedding according to the following steps:
 
-1. The raw dataset downloaded from website should be put into `/data/<amazon/elec/douban>/raw/`. Specifically, The Cloth-Sport and Electronics-Cell Phone and Food-Kitchen datasets can be obtained from this [Download Link](https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/).
-2. Conduct the preprocessing ipynb `data/<amazon/elec/food>/` to process the data augmentation for cross-domain sequential recommendation. After the procedure, you will get the id file  `/data/<amazon/elec/douban>/hdanled/aug_id_map.json` and the interaction file  `/data/<amazon/elec/douban>/handled/<aug_cloth-sport/aug_elec-phone/aug_food_kitchen>.pkl` , the LLMs item embedding file `/data/<<amazon/elec/douban>/handled/aug_itm_emb_np.pkl`, and the unbiased user profile embedding: `domain_split_usr_profile_emb.pkl`.
+1. The raw dataset downloaded from the website should be put into `/data/<amazon/elec/douban>/raw/`. Specifically, The Cloth-Sport and Electronics - Cell Phone and Food-Kitchen datasets can be obtained from this [Download Link](https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/).
+2. Conduct the preprocessing ipynb `data/<amazon/elec/food>/` to process the data augmentation for cross-domain sequential recommendation. After the procedure, you will get the id file  `/data/<amazon/elec/douban>/handled/aug_id_map.json` and the interaction file  `/data/<amazon/elec/douban>/handled/<aug_cloth-sport/aug_elec-phone/aug_food_kitchen>.pkl` , the LLMs item embedding file `/data/<<amazon/elec/douban>/handled/aug_itm_emb_np.pkl`, and the unbiased user profile embedding: `domain_split_usr_profile_emb.pkl`.
 
 In conclusion, the prerequisite files to run the code are as follows: `aug_<cloth-sport/elec-phone/book-movie>.pkl`, `aug_itm_emb_np_all.pkl`, `domain_split_usr_profile_emb.pkl` and `aug_id_map.json`.
 
-⭐️ To ease the reproducibility of our paper, we also upload all preprocessed files to this [link](https://drive.google.com/drive/folders/1sB3-Y_Fna9gosUQZD2lv39aok2nME4tA?usp=sharing).
-The well-trained weight file can be found in this [link](https://drive.google.com/file/d/1HObjTI6VWKp2T28tMvoDDiLfU5E62YDu/view?usp=drive_link).
+⭐️ To ease the reproducibility of our paper, we also upload all preprocessed files to this [link](https://ufile.io/fgq2m3b4).
+The well-trained weight file can be found in this [link](https://ufile.io/rrvaj2n2).
 ## Run and test
 
 1. You can reproduce all LLM-EDT experiments by running the bash step by step as follows:
