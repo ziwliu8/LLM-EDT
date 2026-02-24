@@ -24,9 +24,9 @@ You can preprocess the dataset and get the LLMs embedding according to the follo
 
 In conclusion, the prerequisite files to run the code are as follows: `aug_<cloth-sport/elec-phone/book-movie>.pkl`, `aug_itm_emb_np_all.pkl`, `domain_split_usr_profile_emb.pkl` and `aug_id_map.json`.
 
-⭐️ To ease the reproducibility of our paper, we also upload all preprocessed files to this [link](https://ufile.io/tlrt2rgv).
-The well-trained weight file can be found in this [link](https://ufile.io/iy0s6h5d).
-The log files can be found in this [link](https://ufile.io/i2expyrk).
+⭐️ To ease the reproducibility of our paper, we also upload all preprocessed files to this [link](https://ufile.io/rz9e5ri2).
+The well-trained weight file can be found in this [link](https://ufile.io/hf6d8o63).
+The log files can be found in this [link](https://ufile.io/qxh93b2b).
 ## Run and test
 
 1. You can reproduce all LLM-EDT experiments by running the bash step by step as follows:
