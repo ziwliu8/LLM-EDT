@@ -24,7 +24,7 @@ You can preprocess the dataset and get the LLMs embedding according to the follo
 
 In conclusion, the prerequisite files to run the code are as follows: `aug_<cloth-sport/elec-phone/book-movie>.pkl`, `aug_itm_emb_np_all.pkl`, `domain_split_usr_profile_emb.pkl` and `aug_id_map.json`.
 
-⭐️ To ease the reproducibility of our paper, we also upload all preprocessed files to this [link](https://ufile.io/rz9e5ri2).
+⭐️ To ease the reproducibility of our paper, we also upload all preprocessed files to this [link](https://pan.baidu.com/s/1D3ul94tVj8UwfHYpZpnyYQ?pwd=v3my).
 The well-trained weight file can be found in this [link](https://pan.baidu.com/s/1vPhvqT7TWVdVomaPwgXBmw?pwd=j3f8).
 ## Run and test
 
